@@ -4,14 +4,14 @@ defmodule UUID.Mixfile do
   @version "1.1.7"
 
   def project do
-    [app: :uuid,
-     name: "UUID",
+    [app: :exuuid,
+     name: "EXUUID",
      version: @version,
      elixir: "~> 1.0",
      docs: [extras: ["README.md", "CHANGELOG.md"],
             main: "readme",
             source_ref: "v#{@version}"],
-     source_url: "https://github.com/zyro/elixir-uuid",
+     source_url: "https://github.com/dfcarpenter/elixir-uuid",
      description: description(),
      package: package(),
      deps: deps()]
